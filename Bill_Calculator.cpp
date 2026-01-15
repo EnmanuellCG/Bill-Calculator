@@ -1,5 +1,3 @@
-// Name: Enmanuel Cabrera
-//
 // Title: | Calculating Bill amount |
 //
 //                           | Description Main Work |
@@ -54,12 +52,6 @@ int main()
     tax = 0;
     tip = 0;
 
-
-    // Just as a clarification I did all this myself. The reason to write this is because
-    // I have seen ChatGPT write in the input part, a example on how it should be writed so the user knows what to input
-    // I liked this way so i got inspired by it (ex. $20)
-    // And as i know it will look suspicious I wanted to stop to let you know ;)
-
     // Inputs
     cout << " What was the Bill amount: $", cin >> bill_amount;
     cout << " What is the tax amount in your area (ex. 10%): ", cin >> tax;
@@ -87,3 +79,4 @@ int main()
 
     return 0;
 }
+
